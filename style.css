@@ -1,0 +1,140 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( rgb(0, 0, 0), rgb(70, 0, 60));
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: rgb(212, 212, 212); */
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+.img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.note {
+    text-align: center;
+    margin-top: 2rem;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    background-color: black;
+    margin: 0;
+    padding: 2rem;
+}
+
+.main {
+    padding: 2rem;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.news h2 {
+    text-align: center;
+    font-size: 3.2rem;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 2rem;
+}
+
+.news img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.main1 {
+    /* text-align: center; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.3rem;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 2rem;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+#footerid p {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    padding-bottom: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#footerid p a {
+    text-decoration: none;
+    color: aqua;
+    font-size: 3rem;
+}
+
+@media (max-width:400px) {
+    h1 {
+        background-color: black;
+        color: white;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:500px) {
+    .main {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:100px) {
+    .img,
+    .news img {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (min-width:150px) {
+    .main1,
+    h2 {
+        /* padding: 0; */
+        font-size: 2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+@media (max-width:2000px) {
+    .img,
+    .news img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width:500px) {
+    #footer,
+    .note {
+        font-size: 2rem;
+    }
+}
